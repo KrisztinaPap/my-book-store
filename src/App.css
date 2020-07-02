@@ -1,0 +1,28 @@
+:root {
+  --lightPurple: #7F64CC;
+  --darkPurple: #4F338C;
+  --lightestGreen: #C2FF63;
+  --midGreen: #A7DC00;
+  --darkGreen: #5AB42A;
+  --white: #f3f3f3;
+  --dark: #232328;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  background: var(--white) !important;
+}
+
+.text-title {
+  font-family: 'Notable', sans-serif;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+.text-purple {
+  color: var(--darkPurple);
+}
+
+.text-green {
+  color: var(--darkGreen);
+}
